@@ -9,7 +9,7 @@ export const project_info = [
     project_name: "CliqueIO",
     project_description: "A platform to promote entrepreneurship and collaboration amongst college students. It provides an efficient and fast way to quickly get their idea out there. Creates a way for them to quickly recruit their peers to make their idea come to life.",
     project_link: "www.link.com",
-    project_img: bank 
+    project_img: clique 
   },
   {
     project_name: "Reinvest.life",

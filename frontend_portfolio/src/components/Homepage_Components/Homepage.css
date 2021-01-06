@@ -1,0 +1,116 @@
+/*Business card css*/
+
+/*-------------------------*/
+.business_card_header {
+  /*Used to control the business card headers like email,phone number ...*/
+  font-family: "Oswald, sans-serif";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.business_card_outer {
+  /*Used to control card component of the business card*/
+  width: 28rem;
+  height: 18rem;
+  margin-bottom: 5rem;
+}
+/*-------------------------*/
+
+/*homepage description css*/
+
+/*-------------------------*/
+.homepage_text_surrounding_col {
+  /*used to manipulate position and size of card component in business card*/
+  width: 24.5rem;
+  height: 25rem;
+}
+/*-------------------------*/
+
+/*homepage profile pic cs*/
+.homepage_img {
+  width: 23rem;
+  height: 23rem;
+}
+
+@media (max-width: 750px) {
+  /*homepage description css*/
+  /*-------------------------*/
+  /*Used to control the position of the surrounding Col component of the homepage text*/
+  .homepage_text_surrounding_col {
+    width: 30rem;
+    height: 25rem;
+  }
+  /*Used to control the position of the homepage text*/
+  .homepage_text {
+    margin-left: 2rem;
+  }
+  /*-------------------------*/
+
+  /*homepage profile picture css*/
+  /*-------------------------*/
+  /*-------------------------*/
+
+  /*homepage business card css*/
+  /*---------------------------*/
+  /*---------------------------*/
+}
+
+@media (max-width: 400px) {
+  /*homepage profile picture css*/
+
+  /*-------------------------*/
+  /*Used to control profile pic position*/
+  .homepage_img {
+    position: absolute;
+    right: 7.3rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  /*-------------------------*/
+
+  /*homepage description css*/
+  /*-------------------------*/
+
+  /*Used to control the introduction paragraph in homepage*/
+  .homepage_text {
+    padding-left: 1rem;
+  }
+
+  /*used to push the entire row up and counter margin 7rem in second row*/
+  .home_page_second_row {
+    position: absolute;
+    bottom: 15rem;
+    z-index: -10;
+  }
+
+  /*Used to control the position of the surrounding Col component of the homepage text*/
+  .homepage_text_surrounding_col {
+    width: 24rem;
+    height: 25rem;
+  }
+  /*Used to control the position of the homepage text*/
+  .homepage_text {
+    position: absolute;
+    bottom: -1rem;
+    padding: 1rem;
+  }
+
+  /*-------------------------*/
+
+  /*business card css*/
+  /*------------------*/
+  .business_card_header {
+    /*Used to control the business card headers like email,phone number ...*/
+    font-family: "Oswald, sans-serif";
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .business_card_outer {
+    /*Used to control card component of the business card*/
+    width: 28rem;
+    height: 18rem;
+    margin-bottom: 5rem;
+  }
+  /*------------------*/
+}
