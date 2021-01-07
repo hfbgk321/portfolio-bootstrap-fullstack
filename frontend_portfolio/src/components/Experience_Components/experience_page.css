@@ -1,0 +1,49 @@
+/*divider between education, experience and skills*/
+.divider {
+  border-color: #ebe8e8;
+  border-width: 0.2rem;
+  border-style: solid;
+  margin-top: 3rem;
+  margin: 3rem;
+}
+
+/*moving the position of entire container*/
+
+.experience_page_container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/*Education heading, Skills Heading, Experience Heading*/
+.education_header,
+.experience_header,
+.skills_header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*Used to edit the inside of the education content*/
+.education_date {
+  /*used to style the university's graduation date*/
+  margin: 0rem;
+  margin-top: 1rem;
+}
+
+.education_degree {
+  /*Used to style the university's degree*/
+  margin: 0rem;
+  margin-bottom: 1rem;
+}
+
+.education_name,
+.experience_position {
+  /*Used to style the education's name, the experience's position name*/
+  font-size: 2rem;
+}
+
+.education_location,
+.experience_location {
+  /*Used to tyle the education's location, the experience's location*/
+  font-size: 1.5rem;
+}

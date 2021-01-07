@@ -18,10 +18,10 @@ export const HomePage = () =>{
             <Col lg className ="d-flex justify-content-center" style ={{marginTop:"1rem"}}>
             <Card className = "business_card_outer">
                 <Card.Body ><div style ={{textAlign:"center", fontFamily:"Oswald, sans-serif",fontSize:"1.5rem"}}>Contact Info</div></Card.Body>
-                <Card.Body><span className = "business_card_header">Email</span> : jacky.chen9846@gmail.com</Card.Body>
+                <Card.Body><span className = "business_card_header">Email</span> : <a href ="mailto:jacky.chen9846@gmail.com">jacky.chen9846@gmail.com</a></Card.Body>
                 <Card.Body><span className = "business_card_header">Phone Number</span> : Available Upon Request</Card.Body>
-                <Card.Body><span className = "business_card_header">Linkedin</span> : https://www.linkedin.com/in/jacky-chen-sbu/</Card.Body>
-                <Card.Body><span className = "business_card_header">Github</span> : https://github.com/hfbgk321</Card.Body>
+                <Card.Body><span className = "business_card_header">Linkedin</span> : <a href ="https://www.linkedin.com/in/jacky-chen-sbu/">https://www.linkedin.com/in/jacky-chen-sbu/</a></Card.Body>
+                <Card.Body><span className = "business_card_header">Github</span> : <a href ="https://github.com/hfbgk321">https://github.com/hfbgk321</a></Card.Body>
             </Card></Col>
           </Row>
           

@@ -1,0 +1,44 @@
+/*Surrounding Card Component*/
+
+.surrounding_card_component {
+  width: 25rem;
+  height: 35rem;
+  margin-bottom: 2rem;
+}
+
+/*Project Image*/
+
+.project_img {
+  width: auto;
+  height: 15rem;
+}
+
+/*Project Description*/
+
+.project_description {
+  font-family: "Hind Siliguri";
+  font-size: 1rem;
+}
+
+@media (max-width: 400px) {
+  .surrounding_card_component {
+    position: relative;
+    width: 21.5rem;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  /*Project Image*/
+
+  .project_img {
+    width: auto;
+    height: 15rem;
+  }
+
+  /*Project Description*/
+
+  .project_description {
+    font-family: "Hind Siliguri";
+    font-size: 1rem;
+  }
+}
