@@ -1,6 +1,7 @@
 import {skills_data} from '../../project_data/experience';
 import React from 'react';
 import {Row,Col,ProgressBar} from 'react-bootstrap';
+import './experience'
 
 export const Skills = () =>{
   return (
