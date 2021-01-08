@@ -1,7 +1,7 @@
 import {skills_data} from '../../project_data/experience';
 import React from 'react';
 import {Row,Col,ProgressBar} from 'react-bootstrap';
-import './experience'
+import './experience_page.css'
 
 export const Skills = () =>{
   return (
@@ -11,18 +11,19 @@ export const Skills = () =>{
         {skills_data.map((skill,i)=>{
           return (
             <div>
-                <h1>{skill.type}</h1>
+                <h1 className = "skills_type">{skill.type}</h1>
+                <div className = "skills_section">
                 {(skill.info).map((info,i)=>{
                   return (
-                    <div>
+                    <div className = "skill_items">
                       <h3>{info.name}</h3>
                       <ProgressBar animated now = {info.level} label = {info.level+"%"}/>
                     </div>
                   )
                 })}
+                </div>
+                
             </div>
-            
-
           )
         })}
         </Col>

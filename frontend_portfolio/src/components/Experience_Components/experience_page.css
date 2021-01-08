@@ -37,7 +37,8 @@
 }
 
 .education_name,
-.experience_position {
+.experience_position,
+.skills_type {
   /*Used to style the education's name, the experience's position name*/
   font-size: 2rem;
 }
@@ -46,4 +47,18 @@
 .experience_location {
   /*Used to tyle the education's location, the experience's location*/
   font-size: 1.5rem;
+}
+
+.skills_section {
+  /*Used to style each individual skills section*/
+  margin-bottom: 5rem;
+}
+
+.skill_items {
+  /*Used to style each skill in the skill sections*/
+  margin: 2rem;
+}
+
+.div_surrounding_experience_header {
+  margin-bottom: 5rem;
 }

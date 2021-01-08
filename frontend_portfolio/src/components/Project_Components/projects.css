@@ -20,9 +20,34 @@
   font-size: 1rem;
 }
 
+@media (max-width: 750px) {
+  .surrounding_card_component {
+    position: relative;
+    left: 4rem;
+    width: 21.5rem;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  /*Project Image*/
+
+  .project_img {
+    width: auto;
+    height: 15rem;
+  }
+
+  /*Project Description*/
+
+  .project_description {
+    font-family: "Hind Siliguri";
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 400px) {
   .surrounding_card_component {
     position: relative;
+    left: 0rem;
     width: 21.5rem;
     height: auto;
     margin-bottom: 2rem;
