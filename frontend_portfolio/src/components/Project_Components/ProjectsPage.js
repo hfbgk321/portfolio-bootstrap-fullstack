@@ -11,8 +11,6 @@ export const ProjectsPage = () =>{
       <ParticlesBg type="polygon" bg={true}/>
         <ProjectIntroduction/>
         <ProjectDisplay/>
-        <ParticlesBg type="polygon" bg={true}/>
-        <ParticlesBg type="polygon" bg={true}/>
         
     </Container>
   )
