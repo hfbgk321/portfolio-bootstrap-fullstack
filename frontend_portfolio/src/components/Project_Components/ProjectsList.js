@@ -4,10 +4,10 @@ import {project_info} from '../../project_data/project';
 import './projects.css'
 export const ProjectDisplay = () =>{
   return (
-    <Row className="justify-content-md-center">
+    <Row className ="row_surrounding_projects_list">
       {project_info.map((project,i,)=>{
         return (
-          <Col sm>
+          <Col >
             <Card className ="surrounding_card_component">
                 <Card.Img className ="project_img" variant="top" src={project.project_img}/>
                 <Card.Body>

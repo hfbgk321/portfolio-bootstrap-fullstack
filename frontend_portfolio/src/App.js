@@ -8,10 +8,12 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
+import ParticlesBg from 'particles-bg';
+
 function App() {
+  
   return (
     <div>
       <NavbarDisplay/>
@@ -22,6 +24,9 @@ function App() {
           <Route path ="/" component = {HomePage}/>
         </Switch>
       </Router>
+      <ParticlesBg type="polygon" bg={true}>
+      
+      </ParticlesBg>
     </div>
     
   );

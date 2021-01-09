@@ -5,7 +5,10 @@
   height: 35rem;
   margin-bottom: 2rem;
 }
-
+.row_surrounding_projects_list {
+  position: relative;
+  left: 3rem;
+}
 /*Project Image*/
 
 .project_img {
@@ -27,6 +30,11 @@
     width: 21.5rem;
     height: auto;
     margin-bottom: 2rem;
+  }
+
+  .row_surrounding_projects_list {
+    position: relative;
+    left: 0rem;
   }
 
   /*Project Image*/
@@ -51,6 +59,11 @@
     width: 21.5rem;
     height: auto;
     margin-bottom: 2rem;
+  }
+
+  .row_surrounding_projects_list {
+    position: relative;
+    left: 0rem;
   }
 
   /*Project Image*/

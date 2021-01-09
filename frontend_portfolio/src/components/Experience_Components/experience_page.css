@@ -60,5 +60,192 @@
 }
 
 .div_surrounding_experience_header {
+  /*Used to control the div surrounding the experience heeader*/
   margin-bottom: 5rem;
+}
+
+@media (max-width: 750px) {
+  /*divider between education, experience and skills*/
+  .divider {
+    border-color: #ebe8e8;
+    border-width: 0.2rem;
+    border-style: solid;
+    margin-top: 3rem;
+    margin: 3rem;
+  }
+
+  /*moving the position of entire container*/
+
+  .experience_page_container {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  /*Education heading, Skills Heading, Experience Heading*/
+  .education_header,
+  .experience_header,
+  .skills_header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  /*Used to edit the inside of the education content*/
+  .education_date {
+    /*used to style the university's graduation date*/
+    margin: 0rem;
+    margin-top: 1rem;
+  }
+
+  .education_degree {
+    /*Used to style the university's degree*/
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .education_name,
+  .experience_position,
+  .skills_type {
+    /*Used to style the education's name, the experience's position name*/
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .education_location,
+  .experience_location {
+    /*Used to tyle the education's location, the experience's location*/
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .skills_section {
+    /*Used to style each individual skills section*/
+    margin-bottom: 5rem;
+  }
+
+  .skill_items {
+    /*Used to style each skill in the skill sections*/
+    margin: 2rem;
+  }
+
+  .div_surrounding_experience_header {
+    /*Used to control the div surrounding the experience heeader*/
+    margin-bottom: 1rem;
+  }
+
+  .experience_header_img {
+    height: auto;
+    width: 24rem;
+  }
+
+  .col_surrounding_experience_header_img {
+    position: relative;
+    left: 2.5rem;
+  }
+
+  .col_surrounding_bcard_and_button {
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+  }
+
+  .resume_button {
+    position: relative;
+    bottom: 2rem;
+    left: 8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  /*divider between education, experience and skills*/
+  .divider {
+    border-color: #ebe8e8;
+    border-width: 0.2rem;
+    border-style: solid;
+    margin-top: 3rem;
+    margin: 3rem;
+  }
+
+  /*moving the position of entire container*/
+
+  .experience_page_container {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  /*Education heading, Skills Heading, Experience Heading*/
+  .education_header,
+  .experience_header,
+  .skills_header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  /*Used to edit the inside of the education content*/
+  .education_date {
+    /*used to style the university's graduation date*/
+    margin: 0rem;
+    margin-top: 1rem;
+  }
+
+  .education_degree {
+    /*Used to style the university's degree*/
+    margin: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .education_name,
+  .experience_position,
+  .skills_type {
+    /*Used to style the education's name, the experience's position name*/
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .education_location,
+  .experience_location {
+    /*Used to tyle the education's location, the experience's location*/
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .skills_section {
+    /*Used to style each individual skills section*/
+    margin-bottom: 5rem;
+  }
+
+  .skill_items {
+    /*Used to style each skill in the skill sections*/
+    margin: 2rem;
+  }
+
+  .div_surrounding_experience_header {
+    /*Used to control the div surrounding the experience heeader*/
+    margin-bottom: 1rem;
+  }
+
+  .experience_header_img {
+    height: auto;
+    width: 21rem;
+  }
+
+  .col_surrounding_experience_header_img {
+    position: relative;
+    left: 0.4rem;
+  }
+
+  .col_surrounding_bcard_and_button {
+    margin-top: 2rem;
+    margin-left: 0.6rem;
+  }
+
+  .resume_button {
+    position: relative;
+    bottom: 2rem;
+    left: 3rem;
+  }
 }

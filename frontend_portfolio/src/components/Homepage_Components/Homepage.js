@@ -3,11 +3,12 @@ import {Container,Row,Col,Image,Card} from 'react-bootstrap';
 import profile from '../../project_data/img/prof_pic.png';
 import './Homepage.css'
 import {BusinessCard} from './BusinessCard';
+import ParticlesBg from 'particles-bg';
 export const HomePage = () =>{
   return (
     <Container fluid>
         <Row style = {{height:"60vh"}} className="justify-content-md-center">
-          <Row style = {{marginTop:"7rem",backgroundColor:"white",height:"30rem"}}  className="justify-content-md-center home_page_second_row">
+          <Row style = {{marginTop:"7rem",backgroundColor:"transparent",height:"30rem"}}  className="justify-content-md-center home_page_second_row">
             <Col lg = "4" style ={{height:"26rem"}} className = "text-center" >
               <Image src = {profile}  className ="homepage_img"/>
             </Col>

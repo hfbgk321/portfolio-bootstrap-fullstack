@@ -9,12 +9,12 @@ export const ExperienceHeading = () =>{
   return (
     <div className = "div_surrounding_experience_header">
       <Row className="justify-content-md-center">
-        <Col>
-          <Image src = {Profile}/>
+        <Col className = "col_surrounding_experience_header_img">
+          <Image className = "experience_header_img" src = {Profile}/>
         </Col>
-        <Col>
+        <Col className = "col_surrounding_bcard_and_button">
           <BusinessCard/>
-          <Button variant = "info"><a href = {Resume}>Get a copy of my Resume</a></Button>
+          <Button className = "resume_button" variant = "info"><a href = {Resume}>Get a copy of my Resume</a></Button>
         </Col>
       </Row>
     </div>
